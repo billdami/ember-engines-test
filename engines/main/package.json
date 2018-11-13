@@ -1,0 +1,12 @@
+{
+  "name": "main",
+  "keywords": [
+    "ember-addon",
+    "ember-engine"
+  ],
+  "dependencies": {
+    "ember-cli-htmlbars": "*",
+    "ember-cli-babel": "*",
+    "ember-truth-helpers": "^2.1.0"
+  }
+}

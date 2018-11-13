@@ -1,0 +1,15 @@
+<h1>Host App</h1>
+<div>
+    {{#link-to "main"}}Index{{/link-to}}
+    {{#link-to "main.about"}}About{{/link-to}}
+    {{#link-to "admin"}}Admin Index{{/link-to}}
+    {{#link-to "admin.login"}}Admin Login{{/link-to}}
+</div>
+{{!-- This shouldnt work, ember-truth-helpers is not declared as a dep for the host parent app --}}
+{{!--
+    {{#if (lt 5 8)}}
+        <p>ember-truth-helpers works!</p>
+    {{/if}}
+--}}
+<hr>
+{{outlet}}

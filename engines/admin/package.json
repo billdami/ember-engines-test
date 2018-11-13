@@ -1,0 +1,13 @@
+{
+  "name": "admin",
+  "keywords": [
+    "ember-addon",
+    "ember-engine"
+  ],
+  "dependencies": {
+    "ember-cli-htmlbars": "*",
+    "ember-cli-babel": "*",
+    "ember-data": "~3.1.0",
+    "ember-cli-sass": "^8.0.1"
+  }
+}
