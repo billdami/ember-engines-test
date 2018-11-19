@@ -5,9 +5,11 @@
     "ember-engine"
   ],
   "dependencies": {
-    "ember-cli-htmlbars": "*",
     "ember-cli-babel": "*",
+    "ember-cli-htmlbars": "*",
+    "ember-cli-sass": "^8.0.1",
     "ember-data": "~3.1.0",
-    "ember-cli-sass": "^8.0.1"
+    "ember-fetch": "^6.2.0",
+    "ember-simple-auth": "^1.7.0"
   }
 }

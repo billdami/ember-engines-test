@@ -1,2 +1,7 @@
-<h2>Main Engine</h2>
+<h2>
+    Main Engine
+    {{#if session.isAuthenticated}}
+        <small><a {{action "logout"}} href="">Logout</a></small>
+    {{/if}}
+</h2>
 {{outlet}}

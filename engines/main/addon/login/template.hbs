@@ -1,7 +1,7 @@
-<h3>Admin Login</h3>
-<p>This is a route in the "admin" engine.</p>
+<h3>Main Login</h3>
+<p>This is a route in the "main" engine.</p>
 {{#if session.isAuthenticated}}
-    <p>Logged in to Admin!</p>
+    <p>Logged in to Main!</p>
     <p>Token: {{session.data.authenticated.access_token}}</p>
 {{else}}
     <form {{action "authenticate" on="submit"}}>
